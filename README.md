@@ -39,7 +39,7 @@ Event Management API is a robust Django-based RESTful web service designed for c
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Sma1lON/event_management
-cd event-management-api
+cd event_management
 ```
 
 ### 2. Create Virtual Environment
