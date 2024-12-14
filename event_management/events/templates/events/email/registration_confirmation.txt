@@ -1,0 +1,12 @@
+Hello {{ user.first_name|default:user.username }},
+
+Your registration for {{ event.title }} has been confirmed!
+
+Event Details:
+- Date: {{ event.date|date:"F j, Y, g:i a" }}
+- Location: {{ event.location }}
+- Organizer: {{ event.organizer.get_full_name|default:event.organizer.username }}
+
+{{ event.description }}
+
+This is an automated message, please do not reply. 
